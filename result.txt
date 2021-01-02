@@ -1,0 +1,57 @@
+>> doClassification('S053featureVectors.txt','S053referenceClass.txt', {1,1}, 10, 50, 0)
+Size: 45x2; EVENT: T1; NON-EVENT: T2
+LDA
+   All records-Test   TP= 18 FN=  4; FP=  2 TN= 21; Se:  81.82 Sp:  91.30 CA:  86.67 AUC:  86.76
+   All records-Learn  TP= 18 FN=  4; FP=  2 TN= 21; Se:  81.82 Sp:  91.30 CA:  86.67 AUC:  86.76
+   20% holdout-Test  Single  TP=  4 FN=  1; FP=  0 TN=  4; Se:  80.00 Sp: 100.00 CA:  88.89 AUC:  90.00
+   20% holdout-Learn Single  TP=  4 FN=  1; FP=  0 TN=  4; Se:  80.00 Sp: 100.00 CA:  88.89 AUC:  86.07
+     20% holdout-Test  Nrep  TP=  4 FN=  1; FP=  1 TN=  4; Se:  80.00 Sp:  80.00 CA:  80.00 AUC:  87.70
+     20% holdout-Learn Nrep  TP=  4 FN=  1; FP=  1 TN=  4; Se:  80.00 Sp:  80.00 CA:  80.00 AUC:  86.81
+   Cross-valid-Test  Single  TP= 18 FN=  4; FP=  4 TN= 19; Se:  81.82 Sp:  82.61 CA:  82.22 AUC:  84.58
+   Cross-valid-Learn Single  TP= 18 FN=  4; FP=  4 TN= 19; Se:  81.82 Sp:  82.61 CA:  82.22 AUC:  86.82
+     Cross-valid-Test  Nrep  TP= 18 FN=  4; FP=  3 TN= 20; Se:  81.82 Sp:  86.96 CA:  84.44 AUC:  84.52
+     Cross-valid-Learn Nrep  TP= 18 FN=  4; FP=  3 TN= 20; Se:  81.82 Sp:  86.96 CA:  84.44 AUC:  86.71
+   Leave one o-Test   TP= 18 FN=  4; FP=  4 TN= 19; Se:  81.82 Sp:  82.61 CA:  82.22 AUC:  83.79
+   Leave one o-Learn  TP= 18 FN=  4; FP=  4 TN= 19; Se:  81.82 Sp:  82.61 CA:  82.22 AUC:  86.58
+QDA
+   All records-Test   TP= 18 FN=  4; FP=  3 TN= 20; Se:  81.82 Sp:  86.96 CA:  84.44 AUC:  86.36
+   All records-Learn  TP= 18 FN=  4; FP=  3 TN= 20; Se:  81.82 Sp:  86.96 CA:  84.44 AUC:  86.36
+   20% holdout-Test  Single  TP=  4 FN=  1; FP=  0 TN=  4; Se:  80.00 Sp: 100.00 CA:  88.89 AUC:  85.00
+   20% holdout-Learn Single  TP=  4 FN=  1; FP=  0 TN=  4; Se:  80.00 Sp: 100.00 CA:  88.89 AUC:  86.38
+     20% holdout-Test  Nrep  TP=  4 FN=  1; FP=  1 TN=  4; Se:  80.00 Sp:  80.00 CA:  80.00 AUC:  84.80
+     20% holdout-Learn Nrep  TP=  4 FN=  1; FP=  1 TN=  4; Se:  80.00 Sp:  80.00 CA:  80.00 AUC:  86.90
+   Cross-valid-Test  Single  TP= 18 FN=  4; FP=  3 TN= 20; Se:  81.82 Sp:  86.96 CA:  84.44 AUC:  82.21
+   Cross-valid-Learn Single  TP= 18 FN=  4; FP=  3 TN= 20; Se:  81.82 Sp:  86.96 CA:  84.44 AUC:  86.76
+     Cross-valid-Test  Nrep  TP= 18 FN=  4; FP=  3 TN= 20; Se:  81.82 Sp:  86.96 CA:  84.44 AUC:  81.85
+     Cross-valid-Learn Nrep  TP= 18 FN=  4; FP=  3 TN= 20; Se:  81.82 Sp:  86.96 CA:  84.44 AUC:  86.67
+   Leave one o-Test   TP= 18 FN=  4; FP=  3 TN= 20; Se:  81.82 Sp:  86.96 CA:  84.44 AUC:  81.03
+   Leave one o-Learn  TP= 18 FN=  4; FP=  3 TN= 20; Se:  81.82 Sp:  86.96 CA:  84.44 AUC:  86.35
+   
+>> doClassification('S053featureVectors.txt','S053referenceClass.txt', {1,1}, 10, 50, 0)
+Size: 45x2; EVENT: T1; NON-EVENT: T2
+LDA
+   All records-Test   TP= 19 FN=  3; FP=  3 TN= 20; Se:  86.36 Sp:  86.96 CA:  86.67 AUC:  93.28
+   All records-Learn  TP= 19 FN=  3; FP=  3 TN= 20; Se:  86.36 Sp:  86.96 CA:  86.67 AUC:  93.28
+   20% holdout-Test  Single  TP=  4 FN=  0; FP=  1 TN=  4; Se: 100.00 Sp:  80.00 CA:  88.89 AUC: 100.00
+   20% holdout-Learn Single  TP=  4 FN=  0; FP=  1 TN=  4; Se: 100.00 Sp:  80.00 CA:  88.89 AUC:  92.90
+     20% holdout-Test  Nrep  TP=  4 FN=  1; FP=  1 TN=  4; Se:  80.00 Sp:  80.00 CA:  80.00 AUC:  92.60
+     20% holdout-Learn Nrep  TP=  4 FN=  1; FP=  1 TN=  4; Se:  80.00 Sp:  80.00 CA:  80.00 AUC:  93.81
+   Cross-valid-Test  Single  TP= 18 FN=  4; FP=  4 TN= 19; Se:  81.82 Sp:  82.61 CA:  82.22 AUC:  90.71
+   Cross-valid-Learn Single  TP= 18 FN=  4; FP=  4 TN= 19; Se:  81.82 Sp:  82.61 CA:  82.22 AUC:  93.55
+     Cross-valid-Test  Nrep  TP= 18 FN=  4; FP=  3 TN= 20; Se:  81.82 Sp:  86.96 CA:  84.44 AUC:  91.13
+     Cross-valid-Learn Nrep  TP= 18 FN=  4; FP=  3 TN= 20; Se:  81.82 Sp:  86.96 CA:  84.44 AUC:  93.39
+   Leave one o-Test   TP= 18 FN=  4; FP=  3 TN= 20; Se:  81.82 Sp:  86.96 CA:  84.44 AUC:  90.51
+   Leave one o-Learn  TP= 18 FN=  4; FP=  3 TN= 20; Se:  81.82 Sp:  86.96 CA:  84.44 AUC:  93.19
+QDA
+   All records-Test   TP= 19 FN=  3; FP=  3 TN= 20; Se:  86.36 Sp:  86.96 CA:  86.67 AUC:  92.89
+   All records-Learn  TP= 19 FN=  3; FP=  3 TN= 20; Se:  86.36 Sp:  86.96 CA:  86.67 AUC:  92.89
+   20% holdout-Test  Single  TP=  4 FN=  0; FP=  2 TN=  3; Se: 100.00 Sp:  60.00 CA:  77.78 AUC: 100.00
+   20% holdout-Learn Single  TP=  4 FN=  0; FP=  2 TN=  3; Se: 100.00 Sp:  60.00 CA:  77.78 AUC:  92.90
+     20% holdout-Test  Nrep  TP=  4 FN=  1; FP=  1 TN=  4; Se:  80.00 Sp:  80.00 CA:  80.00 AUC:  89.70
+     20% holdout-Learn Nrep  TP=  4 FN=  1; FP=  1 TN=  4; Se:  80.00 Sp:  80.00 CA:  80.00 AUC:  94.04
+   Cross-valid-Test  Single  TP= 18 FN=  4; FP=  3 TN= 20; Se:  81.82 Sp:  86.96 CA:  84.44 AUC:  89.53
+   Cross-valid-Learn Single  TP= 18 FN=  4; FP=  3 TN= 20; Se:  81.82 Sp:  86.96 CA:  84.44 AUC:  93.61
+     Cross-valid-Test  Nrep  TP= 18 FN=  4; FP=  4 TN= 19; Se:  81.82 Sp:  82.61 CA:  82.22 AUC:  89.90
+     Cross-valid-Learn Nrep  TP= 18 FN=  4; FP=  4 TN= 19; Se:  81.82 Sp:  82.61 CA:  82.22 AUC:  93.47
+   Leave one o-Test   TP= 18 FN=  4; FP=  5 TN= 18; Se:  81.82 Sp:  78.26 CA:  80.00 AUC:  89.72
+   Leave one o-Learn  TP= 18 FN=  4; FP=  5 TN= 18; Se:  81.82 Sp:  78.26 CA:  80.00 AUC:  93.13

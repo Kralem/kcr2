@@ -293,16 +293,16 @@ function  classifyMeasurements( meas, clas, clas1, clas2, classifiers, folds, nr
                 elseif myidx==nrrep                
                 %display(auc);
                 %%
-                %figure;
-                %plot(aucX,aucY);
-                %if (idx == 1)
-                %    text1=sprintf('ROC curve, %s, cross validation, %d folds','LDA',folds);
-                %elseif (idx == 2)
-                %    text1=sprintf('ROC curve, %s, cross validation, %d folds','QDA',folds);
-                %end 
-                %title(text1);
-                %xlabel('1 - Specificity');
-                %ylabel('Sensitivity');
+                figure;
+                plot(aucX,aucY);
+                if (idx == 1)
+                    text1=sprintf('ROC curve, %s, cross validation, %d folds','LDA',folds);
+                elseif (idx == 2)
+                    text1=sprintf('ROC curve, %s, cross validation, %d folds','QDA',folds);
+                end 
+                title(text1);
+                xlabel('1 - Specificity');
+                ylabel('Sensitivity');
                 %%
 
                    TP2=round(TP2*1.0/nrrep);

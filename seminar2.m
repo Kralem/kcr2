@@ -20,7 +20,7 @@ function seminar2(subj, rec)
     [T0, T1, T2] = getIntervals(recName,'event', fs, size(sig,1));
     sig=sig';
 
-    sec = 4.0;
+    sec = 3.0;
     fd = fs* sec;
     
     [m,n] = size(sig);
